@@ -1,1 +1,1 @@
-![mySC](lab1lastsc.png)
+# Step 1: Download and Install VS Code
