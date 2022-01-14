@@ -37,7 +37,7 @@ So the annoying part about using the remote server is that it prompted me for my
 
 ![Image](keysprocess.png)
 
-After this step, you know have a private key and a public key on your computer, but we then need to copy the public key onto the remote server. Here is how the commands look for that portion:
+After this step, you now have a private key and a public key on your computer, but we then need to copy the public key onto the remote server. Here is how the commands look for that portion:
 
 ![Image](keysprocess2.png)
 
