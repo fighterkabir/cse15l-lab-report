@@ -1,0 +1,1 @@
+![mySC](lab1lastsc.png)
