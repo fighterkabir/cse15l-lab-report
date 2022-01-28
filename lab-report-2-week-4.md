@@ -1,5 +1,7 @@
 # My First Group Experience Debugging
 
+---
+
 ## **The First Bug Fix:**
 
 * First off, here the link to the file that [caused the failure.](https://github.com/phrzdgal/markdown-parse/blob/main/newfile.md) 
