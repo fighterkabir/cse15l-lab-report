@@ -20,9 +20,11 @@
 
 ## Step 3: Trying the `scp` command:
 
-* Now I am also able to use the shorthand notation to copy over a file to the remote server in much the same way I did while accessing the server. To test it out, I created a file in my markdown-parse folder called `Test.java`. Originally I would have had to type out `scp Test.java cs15lwi22aup@ieng6.ucsd.edu:~/`, but now I can replace the long username+servername portion with the nickname `ieng6` like before. Here it is in action:
+* Given my setup now, I am also able to use the shorthand notation to copy over a file to the remote server in much the same way I did while accessing the server. To test it out, I created a file in my markdown-parse folder called `Test.java`. Originally I would have had to type out `scp Test.java cs15lwi22aup@ieng6.ucsd.edu:~/`, but now I can replace the long username+servername portion with the nickname `ieng6` like before. Here it is in action:
 
-![Image](usingaliasSCP.png)
+
+
+![Image](usingaliasScp.png)
 
 ---
 
