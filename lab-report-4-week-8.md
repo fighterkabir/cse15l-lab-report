@@ -34,11 +34,11 @@
 
 <p>&nbsp;</p>
 
-* For the first snippet test, I think the code change would be very small, (less than 5 lines) to induce the correct output. This is because the only difference betweeen the expected output and the actual ouput was an extra backtick on the second link. I am assuming this is because the backtick character was inside the parantheses and the program was written in such a way that it included everything inside the parantheses as the link. The change here would be to check the the contents inside the parantheses and only inlude the parts that are part of a link.
+* For the first snippet test, I think the code change would be very small, (less than 5 lines) to induce the correct output. This is because the only difference betweeen the expected output and the actual ouput was and extra link at the beginning (it counted url.com when it shouldn't have). It's essentially a matter of adding a line so that the code ignores brackets that are within backticks.
 
 <p>&nbsp;</p>
 
-* For the second snippet test, I think the code change would be much more involved, because we have nested links and characters within the parantheses that aren't part of the link. The solution for this might be creating a stack that keeps track of matching characters in order to account for nested links. That is just one potential solution, but nonetheless I can tell that this would have to be a very well thought out and involved solution.
+* For the second snippet test, I think the code change would also be fairly small due to the fact that the difference is in the second link forgetting to include the two closing parentheses. In this case, we can include a small portion of code that makes sure to include pairs of parentheses. This will be more involved than the first change, but not too bad.
 
 <p>&nbsp;</p>
 
